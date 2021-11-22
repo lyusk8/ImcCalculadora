@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Meu IMC</string>
     <string name="nome">Nome</string>
-    <string name="peso">Peso kg</string>
-    <string name="altura">Altura cm</string>
+    <string name="peso">Peso kg ex: 80</string>
+    <string name="altura">Altura ex: 1.80</string>
     <string name="calcular">Calcular IMC</string>
     <string name="titulo">Calcula IMC</string>
     <string name="resultado">Resultado</string>

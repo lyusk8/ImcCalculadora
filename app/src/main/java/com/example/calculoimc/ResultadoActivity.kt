@@ -17,6 +17,6 @@ class ResultadoActivity: AppCompatActivity() {
         val dados = intent.extras
         val nome = dados?.getString("nome")
         val resultado = dados?.getString("resultado")
-        texto.text = "$nome o resultado do seu imc é: $resultado"
+        texto.text = "$nome o resultado do seu IMC é $resultado"
     }
 }

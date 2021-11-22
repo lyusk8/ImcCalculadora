@@ -38,22 +38,22 @@ class MainActivity : AppCompatActivity() {
         val numero = peso / (altura*altura)
         return when {
             numero > 40 -> {
-                "Obesidade grau III."
+                "${numero}: Obesidade grau III."
             }
             numero > 35 -> {
-                "Obesidade grau II"
+                "$numero: Obesidade grau II"
             }
             numero > 30 -> {
-                "Obesidade grau I"
+                "$numero: Obesidade grau I"
             }
             numero > 25 -> {
-                "Sobrepeso"
+                "$numero: Sobrepeso"
             }
             numero > 18.6 -> {
-                "Peso normal"
+                "$numero: Peso normal"
             }
             else -> {
-                "Baixo peso"
+                "$numero: Baixo peso"
             }
         }
     }
